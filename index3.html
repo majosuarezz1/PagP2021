@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculadora con JavaScript</title>
+<link type="text/css" href="Ecalcu.css" rel="stylesheet">
+</head>
+
+<body background="h.jpeg">
+    <script type="text/javascript">
+       var m=0;
+        x = [];
+        function suma() {
+        var n1= Number(document.getElementById("n").value);
+        var n2= Number(document.getElementById("n").value);
+        var n3= Number(document.getElementById("n").value);
+        var sumar=n1+n2+n3;
+        document.getElementById('sumar').value=sumar;
+        x.push(sumarr);
+        sumar.value=x.length;
+        document.getElementById('con').value=x;
+        }
+</script>
+
+   <form>
+        <label class="tit" > CALCULADORA </label><br>
+        <input class="a" type="text" id="n" placeholder="Digita un numero" ><br><br>
+        <input class="b" type="text" id="n" placeholder="Digita un numero" ><br><br>
+        <input class="c" type="text" id="n" placeholder="Digita un numero" ><br><br>
+        <br><br>
+        <input class="g" type="button" value="Generador" onclick="suma();">
+        <br><br>
+        <label class="r" >RESULTADO</label><br>
+        <input class="suma" type="" id="sumar" value="">
+   </form>
+
+<div>
+     <a href="Periodo1.html"><button onclick="document.getElementById('s5').play()" class="h">Atras</button>
+</div>
+
+</body>
+</html>

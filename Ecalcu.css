@@ -1,0 +1,73 @@
+
+.a{
+	position: absolute;
+	left: 43%;
+	top: 25%;
+	color: black;
+	border-radius: 6px;
+	background-color: #76D7C4  ;
+}
+.b{
+	position: absolute;
+	left: 43%;
+	top: 32%;
+	color: black;
+	border-radius: 6px;
+	background-color: #76D7C4 ;
+}
+
+.c{
+	position: absolute;
+	left: 43%;
+	top: 39%;
+	color: black;
+	border-radius: 6px;
+	background-color: #76D7C4 ;
+}
+
+.tit{
+	position: absolute;
+	top: 6%;
+	left: 32%;
+	font-size: 70px;
+}
+
+.g{
+    position: absolute;
+    left: 46%;
+    top: 45%;
+    background-color: #17A589 ;
+    font-size: 15px;
+}
+
+.r{
+	position: absolute;
+	top: 50%;
+	left: 39%;
+	color: black;
+	font-size: 49px;
+}
+
+.suma{
+	position: absolute;
+	left: 43%;
+	top: 62%;
+	background-color: #A3E4D7;
+}
+
+.h{
+	position: absolute;
+    left: 45%;
+    top: 67%;
+    background-color: #17A589 ;
+    font-size: 15px;
+     padding: 15px 32px;
+     border-radius: 8px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
